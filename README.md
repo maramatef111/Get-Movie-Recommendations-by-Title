@@ -19,7 +19,7 @@ This project uses TF-IDF, Cosine Similarity, and NLTK to process and compare mov
 
 -------------
 
-##🔧 Technologies Used
+## 🔧 Technologies Used
 
 Python
 
@@ -33,22 +33,22 @@ Scikit-learn – for TF-IDF Vectorization and Cosine Similarity
 
 ## 🧪 How It Works
 
-Preprocess Movie Descriptions
+1. Preprocess Movie Descriptions
 
-Tokenization
+- Tokenization
 
-Lowercasing
+- Lowercasing
 
-Stopword removal
+- Stopword removal
 
-Convert Text to Vectors
+2. Convert Text to Vectors
 
-Apply TfidfVectorizer to transform text into numeric format
+-  Apply TfidfVectorizer to transform text into numeric format
 
-Compute Similarity
+3. Compute Similarity
 
-Use cosine_similarity to find movies most similar to the selected title
+- Use cosine_similarity to find movies most similar to the selected title
 
-Recommend Movies
+4. Recommend Movies
 
-Return top N similar movies
+- Return top N similar movies
