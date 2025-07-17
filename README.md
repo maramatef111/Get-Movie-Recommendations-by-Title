@@ -1,11 +1,12 @@
-🎬 Movie Recommender System 
+# 🎬 Movie Recommender System 
 
 Welcome to the Movie Recommender System, a content-based recommendation engine that suggests movies similar to a user-selected title using Natural Language Processing (NLP) techniques.
 This project uses TF-IDF, Cosine Similarity, and NLTK to process and compare movie metadata such as descriptions, genres, and tags — delivering relevant movie recommendations.
 
  -----------
 
- 📌 Features
+ ## 📌 Features
+ 
 🔍 Recommends movies similar to the one you enter
 
 🧠 Uses NLP to analyze movie metadata
@@ -18,7 +19,8 @@ This project uses TF-IDF, Cosine Similarity, and NLTK to process and compare mov
 
 -------------
 
-🔧 Technologies Used
+##🔧 Technologies Used
+
 Python
 
 Pandas, NumPy
@@ -29,7 +31,8 @@ Scikit-learn – for TF-IDF Vectorization and Cosine Similarity
 
 ----------------
 
-🧪 How It Works
+## 🧪 How It Works
+
 Preprocess Movie Descriptions
 
 Tokenization
